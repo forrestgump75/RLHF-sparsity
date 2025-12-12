@@ -10,6 +10,4 @@ The jupyter notebooks contain all the code to replicate the findings and figures
 
 model_free.ipynb defines the model-free REINFORCE algorithm which updates the policy with the direct human feedback
 
-baseline(EOT)_model_based.ipynb estimates the reward function and learns from only end-of-trajectory feedback
-
-sparse_feedback_model_based.ipynb implements the same framework as the previous notebook but samples feedback more often than end-of-trajectory.
+model_based.ipynb defines the model based approach wherin the reward model is first estimated and then REINFORCE is used for policy optimization. 
